@@ -32,6 +32,21 @@ public class A1Q1 {
        new Wall(KW, 1, 1, Direction.NORTH);
        new Wall(KW, 1, 2, Direction.NORTH);
        
+      karel.move();
+      karel.move();
+      karel.turnLeft();
+      karel.move();
+      karel.move();
+      karel.move();
+      karel.turnLeft();
+      karel.move();
+      karel.move();
+      karel.move();
+      karel.turnLeft();
+      karel.move();
+      karel.move();
+      karel.move();
+      karel.turnLeft();
       
        
         

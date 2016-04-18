@@ -24,6 +24,9 @@ public class A1Q3 {
       City tw = new City();
       Robot joe = new Robot(tw,3,0,Direction.EAST);
       
+      
+      
+      
         new Wall(tw, 3, 2, Direction.WEST);
         new Wall(tw, 3, 2, Direction.NORTH);
         new Wall(tw, 2, 3, Direction.WEST);
@@ -35,6 +38,8 @@ public class A1Q3 {
         new Wall(tw, 3, 4, Direction.EAST);
         
         new Thing(tw, 3, 1);
+
+        
         
         joe.move();
         joe.pickThing();
